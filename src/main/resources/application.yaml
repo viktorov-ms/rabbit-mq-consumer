@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  rabbitmq:
+    addresses: amqps://b-a53e7115-49e5-4a36-84b0-e884898465bf.mq.us-east-1.amazonaws.com:5671
+    username: test
+    password: mytestmytest
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+
+rabbitmq:
+  topic1: string
+  topic2: object
